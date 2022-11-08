@@ -24,6 +24,6 @@ imageWithReadingPIL=imageWithReadingPIL.quantize(32)
 imageWithReadingPIL.show()  
 
   
-#We read image again because dithering with matplotlib
+#We read image again because dithering algorithm uses matplotlib format
 imageWihtReadingPlot = matplotpimg.imread("1.png") 
 FloydSteinberg(imageWihtReadingPlot,32)
